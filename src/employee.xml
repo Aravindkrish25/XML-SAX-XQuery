@@ -1,0 +1,114 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<employees>
+
+    <employee id="1000">
+        <lastname>Smith</lastname>
+        <firstname>Bob</firstname>
+        <hiredate>June 25, 2006</hiredate>
+        <project>
+            <product>Mouse</product>
+            <id>333</id>
+            <price>59.00</price>
+        </project>
+    </employee>
+
+    <employee id="1001">
+        <lastname>David</lastname>
+        <firstname>Tim</firstname>
+        <hiredate>April 25, 2005</hiredate>
+        <project>
+            <product>Phone</product>
+            <id>125</id>
+            <price>30.00</price>
+        </project>
+    </employee>
+
+    <employee id="1002">
+        <lastname>Marquina</lastname>
+        <firstname>Sergio</firstname>
+        <hiredate>October 20, 2007</hiredate>
+        <project>
+            <product>Scanner</product>
+            <id>444</id>
+            <price>200.00</price>
+        </project>
+    </employee>
+
+    <employee id="1003">
+        <lastname>Murillo</lastname>
+        <firstname>Raquel</firstname>
+        <hiredate>October 25, 2008</hiredate>
+        <project>
+            <product>Keyboard</product>
+            <id>555</id>
+            <price>129.00</price>
+        </project>
+    </employee>
+
+    <employee id="1004">
+        <lastname>Messi</lastname>
+        <firstname>Lionel</firstname>
+        <hiredate>May 25, 2007</hiredate>
+        <project>
+            <product>Printer</product>
+            <id>666</id>
+            <price>119.00</price>
+        </project>
+    </employee>
+
+    <employee id="1005">
+        <lastname>Parker</lastname>
+        <firstname>Peter</firstname>
+        <hiredate>May 15, 2006</hiredate>
+        <project>
+            <product>Computer</product>
+            <id>999</id>
+            <price>1234.00</price>
+        </project>
+    </employee>
+
+    <employee id="1006">
+        <lastname>Watson</lastname>
+        <firstname>John</firstname>
+        <hiredate>November 25, 2005</hiredate>
+        <project>
+            <product>Monitor</product>
+            <id>111</id>
+            <price>99.00</price>
+        </project>
+    </employee>
+
+    <employee id="1007">
+        <lastname>Holmes</lastname>
+        <firstname>Sherlock</firstname>
+        <hiredate>December 25, 2005</hiredate>
+        <project>
+            <product>Camera</product>
+            <id>123</id>
+            <price>69.00</price>
+        </project>
+    </employee>
+
+    <employee id="1008">
+        <lastname>Stuart</lastname>
+        <firstname>Alan</firstname>
+        <hiredate>March 25, 2008</hiredate>
+        <project>
+            <product>Speakers</product>
+            <id>124</id>
+            <price>59.00</price>
+        </project>
+    </employee>
+
+    <employee id="1009">
+        <lastname>Moriarty</lastname>
+        <firstname>Jim</firstname>
+        <hiredate>October 15, 2006</hiredate>
+        <project>
+            <product>Laptop</product>
+            <id>222</id>
+            <price>989.00</price>
+        </project>
+    </employee>
+
+</employees>
