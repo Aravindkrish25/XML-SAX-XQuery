@@ -9,7 +9,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class xmlsax {
     public static void main(String[] args) {
         try {
-            File inputFile = new File("src//employee.xml");
+            File inputFile = new File("employee.xml");
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
             EmployeeParser employeeparser = new EmployeeParser();
