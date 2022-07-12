@@ -20,36 +20,36 @@ public class xmlquery {
         }
     }
     public static void main(String[] args){
-        StringBuilder path = new StringBuilder("src//query0.xqy");
+        StringBuilder path = new StringBuilder("query0.xqy");
         System.out.println("----------------------------------------------------");
         try {
             System.out.println("1) Details of employee with ID 1004.\n");
-            path.setCharAt(10,'1');
+            path.setCharAt(5,'1');
             executequery(path.toString());
             System.out.println("----------------------------------------------------\n");
 
             System.out.println("2) List all the employees names inside name tag.\n");
-            path.setCharAt(10,'2');
+            path.setCharAt(5,'2');
             executequery(path.toString());
             System.out.println("----------------------------------------------------\n");
 
             System.out.println("3) List all employee names hired during the year 2005\n");
-            path.setCharAt(10,'3');
+            path.setCharAt(5,'3');
             executequery(path.toString());
             System.out.println("----------------------------------------------------\n");
 
             System.out.println("4) Total price of all employees' products\n");
-            path.setCharAt(10,'4');
+            path.setCharAt(5,'4');
             executequery(path.toString());
             System.out.println("\n----------------------------------------------------\n");
 
             System.out.println("5) Employees' product price > 100\n");
-            path.setCharAt(10,'5');
+            path.setCharAt(5,'5');
             executequery(path.toString());
             System.out.println("----------------------------------------------------\n");
 
             System.out.println("6) Print details of employee who sells Camera\n");
-            path.setCharAt(10,'6');
+            path.setCharAt(5,'6');
             executequery(path.toString());
             System.out.println("----------------------------------------------------\n");
         }
